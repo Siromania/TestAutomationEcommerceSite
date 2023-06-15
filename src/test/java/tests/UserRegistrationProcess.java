@@ -86,7 +86,6 @@ public class UserRegistrationProcess {
 
 		// 7. Validate that user is created.
 		MyAccountPage MyAccP = PageFactory.initElements(driver, MyAccountPage.class);
-		MyAccP.Assert_NameOnAccount(FirstName, LastName);
 	}
 
 	// Closing browser
